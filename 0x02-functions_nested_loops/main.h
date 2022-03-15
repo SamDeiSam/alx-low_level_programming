@@ -1,2 +1,3 @@
-int _putchar(char c);
-
+int lphabet(void);
+_putchar(char c);
+i
