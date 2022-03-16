@@ -3,7 +3,7 @@
  * print_alphabet_x10 -print 10times the alphabet
  * Return: nothing
  */
-void print_alphabet_nt x;
+void print_alphabet_x10(void)
 {
 	int count = 0;
 	int x;
