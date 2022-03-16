@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - Checks Holberon
- * 
+ * Alphabet in lowercase 10 times
  */
 int _islower(int c)
 {
