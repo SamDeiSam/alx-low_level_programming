@@ -21,7 +21,7 @@ int power_operation(int n, int c)
 /**
  * _sqrt_recursion - function returns the natural square root of a number
  * @n: accepts number
- * Rteurn: natural square root
+ * Return: natural square root
  */
 int _sqrt_recursion(int n)
 {
