@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * power_operatiom - function the natural square root of a number
+ * power_operation - function the natural square root of a number
  * @n: accepts number
  * @c: iterator
  * Return: square root or -1.
