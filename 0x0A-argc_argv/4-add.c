@@ -4,7 +4,7 @@
 /**
  * main - function adds positive numbers.
  * @argc: number of command line arguments.
- * argv: contains the program command line arguments.
+ * @argv: contains the program command line arguments.
  * Return: 0
  */
 int main(int argc, char *argv[])
