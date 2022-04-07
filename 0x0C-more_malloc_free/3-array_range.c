@@ -11,14 +11,14 @@
 int *array_range(int min, int max)
 {
 	int *aoi;
-	int i, range;
+	int i, size;
 
 	if (min > max)
 		return (NULL);
 
-	range = max - min + 1;
+	size = max - min + 1;
 
-	ast = malloc(sizeof(int) * range);
+	aoi = malloc(sizeof(int) * size);
 
 	if (aoi == NULL)
 		return (NULL);
