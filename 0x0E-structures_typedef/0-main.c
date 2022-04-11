@@ -2,9 +2,9 @@
 #include "dog.h"
 
 /**
- * main - check the code for ALX School students.
+ * main - function checks code
  *
- * Return: Always 0.
+ * Return: 0
  */
 
 int main(void)
