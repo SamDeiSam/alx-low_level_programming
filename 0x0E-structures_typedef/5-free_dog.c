@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_dog - free struct 
+ * free_dog - free struct
  * @d: pointer to free
  *
  * Return: 0
