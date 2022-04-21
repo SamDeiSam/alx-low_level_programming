@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -5,7 +6,6 @@
  * @h: pointer to head
  *
  * Return: number of elements
- *
  */
 
 size_t list_len(const list_t *h)
