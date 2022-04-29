@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int fd_r, fd_w, r, a, b;
-	char buf[BUFSIZ];
+	char buffer[BUFSIZ];
 
 	if (argc != 3)
 	{
@@ -25,9 +25,9 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	fd_w = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	while ((r = read(fd_r, buf, BUFSIZ)) > 0)
+	while ((r = read(fd_r, buffer, BUFSIZ)) > 0)
 	{
-		if (fd_w < 0 || write(fd_w, buf, r) != r)
+		if (fd_w < 0 || write(fd_w, buffer, r) != r)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			close(fd_r);
